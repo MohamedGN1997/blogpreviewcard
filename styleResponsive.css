@@ -1,8 +1,15 @@
+/* Override styles for smaller screens */
 @media (max-width:768px){
-    body .card{width: 327px;height: 501px;}
-    body .card .container .blog-image{background-image: url("img/blog-Image.png");background-size: cover;}
+    body .card{ 
+        width: 90%;          /* Relative width adapts to container */
+        max-width: 327px;    /* Limits max size on large screens */
+        height: auto;        /* Height adjusts based on content */
+        aspect-ratio: 327 / 501; /* Maintains card’s shape responsively */}
+    body .card .container .blog-image{background-image: url("img/blog-Image.png");background-size: cover;background-repeat: no-repeat;background-position: top left;}
     body .card .container .blog-image svg{display: none;}
-    body .card .container .content .category, .publish-date{font-size: 12px;}
+    body .card .container .content .category,
+    body .card .container .content .publish-date{font-size: 12px;}
     body .card .container .content .title{font-size: 20px;}
     body .card .container .content .description{font-size: 14px;}
 }
+
