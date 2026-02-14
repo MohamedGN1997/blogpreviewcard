@@ -1,0 +1,8 @@
+@media (max-width:768px){
+    body .card{width: 327px;height: 501px;}
+    body .card .container .blog-image{background-image: url("img/blog-Image.png");background-size: cover;}
+    body .card .container .blog-image svg{display: none;}
+    body .card .container .content .category, .publish-date{font-size: 12px;}
+    body .card .container .content .title{font-size: 20px;}
+    body .card .container .content .description{font-size: 14px;}
+}
