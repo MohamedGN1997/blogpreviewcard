@@ -38,7 +38,7 @@ body .card .container .content .description{line-height: var(--line-height);}
 body .card .container .content .category{width: fit-content;padding:4px 12px; display: block;margin-bottom: 12px;background-color: var(--c-yellow);font-size: 14px;font-family:var(--font);font-weight: var(--font-weight-800);color: var(--c-gray-950);border-radius: 4px;}
 body .card .container .content .publish-date{font-family:var(--font);font-weight: var(--font-weight-500);font-size: 14px;color: var(--c-gray-950);}
 body .card .container .content .title{margin: 12px 0px;cursor: pointer; font-family:var(--font);font-weight: var(--font-weight-800);font-size: 24px;color: var(--c-gray-950);}
-body .card:hover .container .content .title{color: var(--c-yellow);transition: .3s ease-in-out;}
+body .card:hover .container .content .title{color: var(--c-yellow);transition:color .3s ease-in-out;}
 body .card .container .content .description{font-family:var(--font);font-weight: var(--font-weight-500);font-size: 16px;color: var(--c-gray-500);}
 body .card .container .Author{display: flex;align-items: center;justify-content: flex-start;gap: 12px;}
 body .card .container .Author .userPic{max-height: 32px;}
